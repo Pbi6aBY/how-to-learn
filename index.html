@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Научиться учиться</title>
     <link rel="stylesheet" href="./vendor/normalize.css" />
-    <link rel="stylesheet" href="./pages/fish.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body>
     <div class="page">
@@ -15,7 +15,7 @@
         <p class="header__subtitle">
           Какие современные и эффективные подходы к обучению вы можете
           использовать в своей жизни?
-          <a href="#" class="header__link">Узнать &rarr;</a>
+          <a href="#" class="header__link opacity">Узнать &rarr;</a>
         </p>
         <img
           src="./images/header-image.png"
@@ -50,9 +50,13 @@
           </div>
         </section>
         <section class="techniques">
-          <h2 class="section-title">Техники обучения</h2>
-          <p class="section-subtitle">Пять практик от Барбары Оакли</p>
-          <div class="card">
+          <h2 class="section-title section-title_style_techniques">
+            Техники обучения
+          </h2>
+          <p class="section-subtitle section-subtitle_style_techniques">
+            Пять практик от Барбары Оакли
+          </p>
+          <div class="cards">
             <div class="cards__item">
               <img
                 src="./images/cards-attention.png"
@@ -116,20 +120,20 @@
           </div>
         </section>
         <section class="video">
-          <h2 class="section-title">Видео на TED</h2>
-          <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-            <iframe class="iframe"
-              width="560"
-              height="315"
+          <h2 class="section-title section-title_style_video">Видео на TED</h2>
+          <p class="section-subtitle section-subtitle_style_video">
+            Для тех, кто любит прокрастинировать
+          </p>
+          <div class="video__iframes">
+            <iframe
+              class="video__iframe"
               src="https://www.youtube.com/embed/5MgBikgcWnY"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
             <iframe
-              class="iframe"
-              width="560"
-              height="315"
+              class="video__iframe"
               src="https://www.youtube.com/embed/arj7oStGLkU"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -138,8 +142,9 @@
           </div>
         </section>
         <section class="oakley">
-          <div class="two-colums">
+          <div class="two-colums two-colums_style_oakley">
             <h2 class="two-colums__bref">История Барбары Оакли.</h2>
+            <div class="two-colums__main-text">
             <p class="two-colums__paragraph">
               С детства Барбаре не давалась математика. Она считала себя
               законченным гуманитарием, причём далеко не самым умным. В армии
@@ -155,7 +160,7 @@
         <section class="feynman">
           <h2 class="feynman__title">Метод Фейнмана</h2>
           <p class="feynman__subtitle">Выучить и не забыть</p>
-          <a href="#" class="feynman__link">Подробнее &rarr;</a>
+          <a href="#" class="feynman__link opacity">Подробнее &rarr;</a>
           <img
             src="./images/feynman.png"
             alt="Фото Ри́чарда Фи́ллипса Фе́йнмана — американского учёного"
@@ -163,8 +168,12 @@
           />
         </section>
         <section class="digits">
-          <h2 class="section-title">Цифры и факты</h2>
-          <p class="section-subtitle">Про учёбу и мозг</p>
+          <h2 class="section-title section-title_style_digits">
+            Цифры и факты
+          </h2>
+          <p class="section-subtitle section-subtitle_style_digits">
+            Про учёбу и мозг
+          </p>
           <div class="table">
             <div class="table__cell">
               <h3 class="table__heading">86 миллиардов</h3>
@@ -231,7 +240,7 @@
                 alt="Изображение обложки книги Весь мир-школа Салмана Хана"
                 class="khan__book-pic"
               />
-              <a href="#" class="khan__buy-link">Купить книгу &rarr;</a>
+              <a href="#" class="khan__buy-link opacity">Купить книгу &rarr;</a>
             </div>
           </div>
         </section>
@@ -307,15 +316,33 @@
           <div class="kaufman__triangle rotation"></div>
         </section>
         <section class="resources">
-          <h2 class="section-title">Полезные ресурсы</h2>
-          <p class="section-subtitle">
+          <h2 class="section-title section-title_style_resources">
+            Полезные ресурсы
+          </h2>
+          <p class="section-subtitle section-subtitle_style_resources">
             Больше материалов о техниках и лайфхаках обучения
           </p>
           <div class="resources__logo-zone">
-            <div class="div resources__logo">1</div>
-            <div class="div resources__logo">2</div>
-            <div class="div resources__logo">3</div>
-            <div class="div resources__logo">4</div>
+            <a href="#"> <img
+              src="./images/logo/resources-arzamas.svg"
+              alt="Логотип Arzamas"
+              class="resources__logo opacity"
+            /></a>
+            <a href="#"> <img
+              src="./images/logo/resources-n1.svg"
+              alt="Логотип N+1"
+              class="resources__logo opacity"
+            /></a>
+            <a href="#"> <img
+              src="./images/logo/resources-strelka.svg"
+              alt="Логотип STRELKA"
+              class="resources__logo opacity"
+            /></a>
+            <a href="#"> <img
+              src="./images/logo/resources-polka.svg"
+              alt="Логотип ПОЛКА"
+              class="resources__logo opacity"
+            /></a>
           </div>
         </section>
       </main>
@@ -330,13 +357,13 @@
             <nav class="footer__column-links">
               <ul class="footer__list">
                 <li>
-                  <a href="#" class="footer__column-link">Главная</a>
+                  <a href="#" class="footer__column-link opacity">Главная</a>
                 </li>
                 <li>
-                  <a href="#" class="footer__column-link">Концепция</a>
+                  <a href="#" class="footer__column-link opacity">Концепция</a>
                 </li>
                 <li>
-                  <a href="#" class="footer__column-link">Наставники</a>
+                  <a href="#" class="footer__column-link opacity">Наставники</a>
                 </li>
               </ul>
             </nav>
@@ -346,7 +373,7 @@
             <nav class="footer__social-icon">
               <ul class="footer__list">
                 <li>
-                  <a href="#" class="footer__column-link"
+                  <a href="#" class="footer__column-link opacity"
                     ><img
                       src="./images/facebook_color_white.svg"
                       alt="Логотип Facebook"
@@ -355,7 +382,7 @@
                   >
                 </li>
                 <li>
-                  <a href="#" class="footer__column-link"
+                  <a href="#" class="footer__column-link opacity"
                     ><img
                       src="./images/vk_color_white.svg"
                       alt="Логотип Вконтакте"
@@ -364,7 +391,7 @@
                   >
                 </li>
                 <li>
-                  <a href="#" class="footer__column-link"
+                  <a href="#" class="footer__column-link opacity"
                     ><img
                       src="./images/instagram_color_white.svg"
                       alt="Логотип Instagram"
